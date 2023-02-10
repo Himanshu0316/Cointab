@@ -1,0 +1,205 @@
+.Main {
+    width: 100%;
+    height: 650px;
+}
+.btn1{
+    color: tomato;
+    background-color: white;
+    font-weight: bold;
+    font-size: 16px;
+    width: 50%;
+    height: 50px;
+    border: 0;
+    outline: 1px;
+}
+.btn2{
+    color: white;
+    background-color: tomato;
+    font-weight: bold;
+    font-size: 16px;
+    width: 50%;
+    height: 50px;
+    border: 0;
+    outline: 1px;
+}
+/* .Home {
+    width: 100%;
+
+} */
+
+.Navbar {
+    width: 100%;
+    height: 70px;
+    
+    background-color: rgba(85, 9, 104, 0.562);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.navLinks {
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.formTag {
+    width: 30%;
+    height: 40px;
+}
+
+.loginBox{
+    margin: auto;
+    margin-top: 20px;
+    width: 40%;
+    height:500px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.loginButton{
+    width: 100%;
+    height: 50px;
+}
+.logDiv{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+
+}
+.Button{
+    width: 100px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: dodgerblue;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    
+
+}
+.Btn{
+    width: 50px;
+    height: 30px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: dodgerblue;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+
+}
+.Redbtn{
+    width: 50px;
+    height: 30px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+
+}
+.Btn:hover{
+    opacity: 0.5;
+}
+.Redbtn:hover{
+    opacity: 0.5;
+}
+.logDivs {
+    width: 100%;
+    margin: auto;
+    background-color: white;
+
+}
+
+.h1Tag {
+    text-align: center;
+    color: black;
+}
+.Warntag{
+    font-size: smaller;
+    font-weight:lighter;
+    line-height: 1px;
+    letter-spacing: -1px;
+    
+}
+
+.formDivs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inPuts {
+    width: 50%;
+    height: 30px;
+    outline: 1px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.Table{
+    width: 50%;
+    margin: auto;
+}
+.Th{
+    text-align: center;
+    border-bottom: 1px solid whitesmoke;
+}
+.Td{
+    text-align: center;
+    border-bottom: 1px solid whitesmoke;
+}
+@media only screen and (min-width:0px) and (max-width:785px) {
+    .Main {
+        width: 100%;
+        height: 900px;
+        background: rgb(26, 2, 32);
+
+    }
+ 
+
+    .Navbar {
+        width: 100%;
+        height: 50px;
+        border: 1px solid black;
+        background-color: rgba(247, 239, 239, 0.1);
+        display: flex;
+        justify-content: space-between;
+
+        align-items: center;
+    }
+
+    .navLinks {
+        margin: 10px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+    .formTag {
+        width: 30%;
+        height: 40px;
+    }
+
+    .inPuts {
+        width: 90%;
+        height: 30px;
+        outline: 1px;
+        margin: auto;
+        margin-top: 20px;
+
+    }
+
+}
